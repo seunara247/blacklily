@@ -1,0 +1,154 @@
+@import url("https://fonts.google.com/specimen/Kumbh+Sans";)
+*{
+   font-weight: 400;
+   border:60px;
+   margin: 20px; 
+}
+h4{
+    text-decoration: line-through;
+}
+.comment section h4{
+    color: transparent;
+}
+nav{
+    height: 20px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    padding: 10px 100px 10px 100px;
+    justify-content: space-around;
+    align-items: center;
+}
+#blur{
+    filter: blur(1px);
+}
+ol{
+    display: inline-flex;
+    /*justify-content: space-between;*/
+    line-height: 30px;
+}
+.picsone{
+    width: 75px;
+}
+.picstwo{
+    width: 15px;
+    float:left
+}
+.picsthree{
+    width: 30px;
+}
+li{
+    display: flex;
+    flex-direction: row;
+    float: left;
+    justify-content: space-around;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+    height: auto;
+}
+.comment section{
+    padding: 20px 30px 2px 30px;
+}
+.sneakertwo img{
+    width: 100px;
+    height: 70px;
+    border: none;
+    border-left: 40px;
+    border-radius: 10px;
+    /*display: inline-block;*/
+    /*flex-direction: column;*/
+    /*justify-content: space-between;*/
+}
+menu{
+ display: none;
+}
+span{
+    color: orangered;
+}
+button{
+    color: darkorange;
+    border: none;
+    background-color: pink;
+}
+.one{
+    width: 100px;
+    height: 8%;
+    background-color: whitesmoke;
+    border:none;
+    border-radius: 5px;
+    float: left;
+}
+.one img{
+    width: 8px;
+}
+.sneakerone img{
+    width: 80%;
+    height: 70%;
+    border-radius: 10px;
+    border: 30px
+}
+.two img{
+    width: 10px;
+    color: white;
+}
+.two{
+    color: white;
+    background-color: darkorange;
+    border-radius: 5px;
+    width: 170px;
+    height: 8%;
+    border: none;
+}
+@media screen and (max-width:360px){
+.container{
+    width: auto;
+    height: auto;
+    display: block;
+}
+.sneakerone{
+    width: 100%;
+    border-radius: none;
+    float: left;
+}
+.one{
+    float: left;
+}
+.sneakertwo img{
+    width: none;
+}
+li{
+    display: none
+}
+menu{
+    width: 20px;
+}
+.sneakertwo img{
+        display: none;
+}
+nav{
+    width: auto;
+}
+.picsone{
+    float: right;
+}
+}
+@media screen and (max-width: 1004px ) {
+.container{
+    width: auto;
+    height: auto;
+    display: block;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.sneakerone{
+    display: auto
+}
+.sneakertwo{
+    display: flex;
+}
+.ul{
+    justify-self: space-between;
+}
+}
